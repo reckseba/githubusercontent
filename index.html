@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heads Up! Check the URL</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fef9f2;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .container {
+      background-color: #fff3cd;
+      border: 1px solid #ffeeba;
+      border-radius: 12px;
+      padding: 2rem;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin: 1rem 0;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #b3541e;
+    }
+
+    a {
+      color: #004085;
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+      text-align: center;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>⚠️ Just a Friendly Heads-Up!</h1>
+    <p>
+      You may have ended up here by <span class="highlight">mistake</span>—or someone may have tried to trick you using
+      a deceptive web address.
+    </p>
+    <p>
+      Some malicious actors are using similar-looking Unicode characters in website URLs to fool users. It's a technique
+      known as a <span class="highlight">homograph attack</span>.
+    </p>
+    <p>
+      To learn more, check out this article by Daniel Stenberg:<br />
+      👉 <a href="https://daniel.haxx.se/blog/2025/05/16/detecting-malicious-unicode/" target="_blank"
+        rel="noopener noreferrer">
+        Detecting Malicious Unicode
+      </a>
+    </p>
+    <p>
+      Always double-check the URL before entering personal information—better safe than sorry!
+    </p>
+    <div class="footer">
+      Stay safe online ✨
+    </div>
+  </div>
+</body>
+
+</html>
